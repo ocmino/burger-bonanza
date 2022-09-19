@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import styles from "./Step_One.module.css";
 import Button from "../Components/Button";
 
-function Step_One() {
+function StepOne() {
   return (
     <div className={styles.step_one}>
       <h1>Steg 1</h1>
@@ -22,4 +22,4 @@ function Step_One() {
   );
 }
 
-export default Step_One;
+export default StepOne;
