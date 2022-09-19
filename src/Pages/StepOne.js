@@ -16,7 +16,7 @@ function StepOne() {
         värmen och klicka i smör, och ge löken färg. Ställ undan.
       </p>
       <Link to="/step_two">
-        <Button>Continue</Button>
+        <Button>Fortsätt</Button>
       </Link>
     </div>
   );
