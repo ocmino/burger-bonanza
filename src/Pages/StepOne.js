@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./Step_One.module.css";
+import styles from "./StepOne.module.css";
 import Button from "../Components/Button";
 
 function StepOne() {
