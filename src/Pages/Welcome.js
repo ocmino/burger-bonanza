@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 const Welcome = () => {
   return (
     <div className={styles.welcome}>
-      <h1 className={styles.welcome__text}>Welcome to</h1>
-      <p className={styles.welcome__text__small}> Anna's and Jonathan's Burger Bonzanza Evening</p>
-      <Link to="/ingredients"><Button>Get Started</Button></Link>
+      <h1 className={styles.welcome__text}>Välkommen till</h1>
+      <p className={styles.welcome__text__small}> Annas and Jonathans Burger Bonzanza Evening</p>
+      <Link to="/ingredients"><Button>Sätt igång</Button></Link>
     </div>
   );
 };

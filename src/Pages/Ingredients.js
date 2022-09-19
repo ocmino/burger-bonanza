@@ -8,8 +8,20 @@ import Button from "../Components/Button";
 function Ingredients() {
   return (
     <div className={styles.ingredients}>
+      <p className={styles.specifications}>🍽 4 portioner 🕚 30 minuter</p>
       <h1>Ingredients</h1>
-      <Link to="/"><Button>Home</Button></Link>
+      <ul className={styles.ingredients__list}>
+        <li>Gul Lök Stor: 1</li>
+        <li>Matolja Att Steka I</li>
+        <li>Nötfärs 600 g</li>
+        <li>Salt Och Peppar</li>
+        <li>Kvibille® Ädel 140 g</li>
+        <li>Hamburgerbröd Gärna Brioche</li>
+        <li>Majonnäs</li>
+      </ul>
+      <Link to="/step_one">
+        <Button>Fortsätt</Button>
+      </Link>
     </div>
   );
 }
