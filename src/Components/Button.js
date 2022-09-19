@@ -1,12 +1,13 @@
-//create a button component
+import React from "react";
+import styles from "./Button.module.css";
 
-import React from 'react';
-import styles from './Button.module.css';
-
-const Button = (props) => {
+function Button({ children, onClick, className }) {
     return (
-        <button className={styles.button}>{props.children}</button>
-    )
-}
+        <button className={`${styles.button} ${className}`} onClick={onClick}>
+            {children}
+        </button>
+        
+    );
+    }
 
 export default Button;

@@ -7,14 +7,29 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    font-family: 'Caveat', cursive;
+
+    animation: fadeIn 1s;
   }
   
   .instruction {
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 70%;
+
+    animation: fadeIn 2s;
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   

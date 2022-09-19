@@ -9,7 +9,7 @@ function Ingredients() {
   return (
     <div className={styles.ingredients}>
       <p className={styles.specifications}>🍽 4 portioner 🕚 30 minuter</p>
-      <h1>Ingredients</h1>
+      <h1 className={styles.title}>Ingredients</h1>
       <ul className={styles.ingredients__list}>
         <li>Gul Lök Stor: 1</li>
         <li>Matolja Att Steka I</li>
@@ -20,7 +20,7 @@ function Ingredients() {
         <li>Majonnäs</li>
       </ul>
       <Link to="/step_one">
-        <Button>Fortsätt</Button>
+        <Button className={styles.button}>Fortsätt</Button>
       </Link>
     </div>
   );

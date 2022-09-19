@@ -7,8 +7,33 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 16px;
+}
+
+.title {
+  animation: fadeIn 1s;
 }
 
 .specifications {
   font-size: 15px;
+  animation: fadeIn 1s;
+}
+
+.ingredients__list {
+  font-size: 15px;
+  animation: fadeIn 2s;
+}
+
+.button {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

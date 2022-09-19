@@ -1,4 +1,4 @@
-.step_three {
+.lastpage {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -9,10 +9,10 @@
     color: white;
     font-family: 'Caveat', cursive;
 
-    animation: fadeIn 1s;
+    animation:fadeIn 1s;
   }
   
-  .instruction {
+  .lastpage__text {
     font-size: 18px;
     align-items: center;
     text-align: left;

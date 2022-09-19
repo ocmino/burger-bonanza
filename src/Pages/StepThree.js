@@ -15,7 +15,7 @@ function StepThree() {
         vilket är hemligheten till saftiga burgare! Skär nu färsen i fyra delar,
         och forma fyra burgare utan att knåda i onödan. Jämna till kanterna.
       </p>
-      <Link to="/step_three">
+      <Link to="/step_four">
         <Button>Fortsätt</Button>
       </Link>
     </div>
